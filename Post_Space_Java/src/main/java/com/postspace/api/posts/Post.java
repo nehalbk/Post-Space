@@ -18,7 +18,6 @@ public class Post {
 	public Post() {}
 
 	public Post(Integer postid, String postcont, Integer postuserid) {
-		super();
 		this.postid = postid;
 		this.postcont = postcont;
 		this.postuserid = postuserid;

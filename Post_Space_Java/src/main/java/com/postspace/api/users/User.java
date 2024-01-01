@@ -17,10 +17,10 @@ public class User {
 	
 	public User() {}
 	
-	public User(int i, String string, String string2) {
-		this.password=string2;
-		this.username=string;
-		this.usersid=i;
+	public User(int usersid, String username, String password) {
+		this.password=password;
+		this.username=username;
+		this.usersid=usersid;
 	}
 
 	public Integer getUsersid() {
