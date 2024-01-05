@@ -15,6 +15,7 @@ public interface CommentRepo extends JpaRepository<Comment, Integer>{
 	@Transactional
 	@Modifying
 	@Query("SELECT t FROM Comment t WHERE t.commentpostid=?1")
-	List<Comment> findByPostid(Integer userid);
+	List<Comment> findByPostid(Integer postid);
 	
 }
+
